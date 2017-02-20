@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+  <title> Weather Application </title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1> Weather Application </h1>
+  <div class="inputBox">
+    <input type="text" id="city" placeholder="City name" required>
+    <input type="button" id="btn" value="Enter" onclick="weatherApp()">
+  </div>
+  <div class="weather-app">
+    <div class="left">
+      <img id="icon" src="imgs/codes/200.png" alt="weather-icon">
+    </div>
+    <div class="center">
+      <div class="location" title="Location"><span id="location">City</span>, <span id="country"> Country</span></div>
+      <div class="description"><span id="description"> </span></div>
+      <div class="temperature" title="Temperature"><span id="temperature">0</span>&deg;C</div>
+    </div>
+    <div class="right">
+      <div class="humidity" title="Humidity">
+        <img src="imgs/humidity.png" alt="humidity">
+        <span id="humidity"> 0</span>%
+      </div>
+      <div class="wind">
+        <span id="wind" title="Wind speed">0</span> m/s <span id="direction" title="Direction"> N</span>
+      </div>
+      <div class="atm-press" title="Pressure">
+        <span id="atm-press">0</span> hPa
+      </div>
+    </div>
+  <script src="js/app.js"></script>
+</body>
+</html>

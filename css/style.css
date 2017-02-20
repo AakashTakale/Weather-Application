@@ -1,0 +1,102 @@
+body{
+  font-family: "Palatino Linotype";
+  background: #E5E5E5;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  margin: 11% 40% 3%;
+  height: 30px;
+  width: 500px;
+}
+.inputBox{
+  margin: 3% 41%;
+  width: 400px;
+  height: 25px;
+}
+#city{
+  width: 175px;
+  padding: 1%;
+  text-align: center;
+  font-size: 15px;
+}
+#btn{
+  width: 75px;
+  padding: 1%;
+  font-size: 15px;
+}
+.weather-app{
+    margin: 2% 38%;
+    width: 350px;
+    height: 120px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-align:center;
+    font-family: "Palatino Linotype";
+    border: 1px solid #2A31FF;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px #4892FB;
+}
+
+.left{
+   float: left;
+   width: 80px;
+   height: 100%;
+   background: linear-gradient(#1363D5, #3480EE);
+}
+.left img {
+    margin-top: 15px;
+    height: 70px;
+    padding: 5px;
+}
+.center{
+  float: left;
+  width: 170px;
+  height: 100%;
+  background: linear-gradient(#3581EF, #4892FB);
+  color: white;
+  text-transform: capitalize;
+}
+.location{
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.description{
+  font-size: 18px;
+  padding-top: 3px;
+}
+.temperature{
+  font-size: 22px;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+.right{
+  float: right;
+  width: 100px;
+  height: 100%;
+  color: white;
+  background: linear-gradient(#4892FB, #6ca6f7);
+}
+.right img{
+  height: 16px;
+}
+.humidity{
+  font-size: 16px;
+  padding-top: 12px;
+}
+.humidity:hover{
+  content: " Wind ";
+
+}
+.wind{
+  font-size: 16px;
+  padding: 8px 0;
+}
+.atm-press{
+  font-size: 16px;
+  padding-top: 5px;
+}
